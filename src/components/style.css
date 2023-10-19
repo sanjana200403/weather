@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: black;
+}
+.main{
+    background-color: blue;
+    width: 60vw;
+    height: 70vh;
+    border-radius: 30px;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+.inputDiv{
+    position: flex
+}
+.inputField{
+    /* position: absolute; */
+    /* top: 10px ; */
+    /* left: 10%; */
+    border-radius: 20px;
+    height: 6vh;
+    width: 50vw;
+    font-size: 20px;
+    padding: 0 10px;
+    margin-top: 10px; 
+    /* margin-left: 30px;  */
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* background-color: red; */
+}
+.street{
+    /* height: 100px; */
+    /* width: 200px; */
+    margin-right: 20px;
+    color: white;
+}
+.info h2{
+    color: white;
+    font-size: 40px;
+}
+.temp{
+    color: wheat;
+}
+h3{
+    margin-top: 20px;
+    color: wheat;
+}
+@media screen and (max-width: 600px)  {
+.main{
+    width: 90vw;
+}
+.inputField{
+    width: 80vw;
+}
+
+
+}
